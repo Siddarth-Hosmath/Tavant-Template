@@ -1,0 +1,318 @@
+@media only screen and (max-width:640px) {
+    .navbar {
+        /* background-color: aquamarine; */
+        font-size: 1.2em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        min-height: 12vh;
+        z-index: 2;
+    }
+
+    .right {
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .right ul {
+        flex-direction: column;
+        font-size: 0.7em;
+    }
+
+    .right ul li {
+        margin: 0.8em 0;
+        /* padding-bottom: 5px; */
+    }
+
+    .page1-welcome {
+        background-image: url(/img/warranty-management-banner.jpg);
+        background-size: 1920px;
+        max-height: 90vh;
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page2 {
+        min-height: 90vh;
+    }
+
+    .title2 h1 {
+        /* margin-top: 20px; */
+        margin-bottom: 30px;
+        font-size: 29px;
+        margin-top: 0;
+    }
+
+    .page2 p {
+        margin-top: 6px;
+        font-size: 16px;
+    }
+
+    .caption {
+        min-height: 35px;
+    }
+
+    .grid-container {
+        gap: 10px;
+    }
+
+    .grid-container img {
+        size: 10px;
+    }
+
+    .info {
+        font-size: 0.8em;
+    }
+
+    .grid-container {
+        margin: 2vh 1vw;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content;
+        grid-template-areas:
+            "block-1 block-2"
+            "block-3 block-4";
+    }
+
+    .grid-container>div {
+        /* border: 1px solid black; */
+        text-align: center;
+        min-height: 65vmin;
+        border: 2px solid rgb(245, 238, 238);
+    }
+
+    .grid-container>div p {
+        padding: 5px;
+
+    }
+
+    .page2 p {
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: var(--main-bg-color);
+        text-align: center;
+        font-family: var(--main-font);
+    }
+
+    .button {
+        padding: 5px 15px;
+        color: white;
+        border: none;
+        background: none;
+        border-radius: 5px;
+        font-size: 0.7em;
+        background-color: rgba(255, 182, 7, 255);
+        border-color: rgba(255, 182, 7, 255);
+    }
+
+    .page3 {
+        margin-top: 0px;
+        overflow: hidden;
+        min-height: 80vh;
+        width: 100%;
+    }
+
+    .third-grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        /* height: 80vh; */
+        margin: 0 4px;
+        row-gap: 0px;
+    }
+
+    .left-grid {
+        /* background-color: antiquewhite; */
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .right-grid {
+        position: relative;
+        /* background-color: navy; */
+    }
+
+    .right-grid img {
+        height: 200px;
+        width: 300px;
+        z-index: 0;
+    }
+
+    .left-grid h1 {
+        font-size: 28px;
+
+    }
+
+    .left-grid p {
+        margin-top: auto;
+        font-size: 20px;
+    }
+
+    .page-3-RM-button {
+        padding: 10px 15px;
+        margin-top: 32px;
+        margin-left: 82px;
+        /* margin-bottom: 15vh; */
+    }
+
+    .page4 {
+        /* background-color: aqua; */
+        min-height: 95vh;
+        width: 100%;
+    }
+
+    .page4 p {
+        margin-bottom: 10px;
+    }
+
+    .pg4-heading p{
+        margin-top: 10px;
+    }
+
+    .grid-page4 {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0px 1vw;
+        row-gap: 2vh;
+    }
+
+    .salesforce,
+    .ecommerce {
+        font-size: smaller;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid rgb(218, 249, 250); */
+    }
+
+    .page5 {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 182, 7, 255);
+    }
+
+    .title3 {
+        margin: 0 auto;
+    }
+
+    .page5 h1 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    footer {
+        min-height: 4vh;
+        text-align: center;
+        position: sticky;
+        background-color: rgb(255, 250, 250);
+        /* background-color: (255, 182, 7, 255); */
+    }
+
+    .social-media {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        align-items: center;
+        margin: 0px 3px;
+        padding: 5px 0 5px;
+        place-items: center;
+    }
+
+    .social-media img {
+        margin: 8px 5px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .page2 {
+        min-height: 80vh;
+    }
+
+    .page2 p {
+        margin-top: 5px;
+        margin-bottom: 6px;
+        background-color: var(--main-bg-color);
+        text-align: center;
+        font-family: var(--main-font);
+    }
+
+    .grid-container {
+        margin: 2vh 1vw;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content;
+        grid-template-areas:
+            "block-1 block-2"
+            "block-3 block-4";
+    }
+
+    .grid-container>div {
+        /* border: 1px solid black; */
+        text-align: center;
+        min-height: 60vmin;
+        border: 2px solid rgb(238, 234, 234);
+    }
+
+    .caption {
+        min-height: 25px;
+    }
+
+
+    .left-grid p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .page-3-RM-button {
+        padding: 8px 13px;
+        /* background-color: aqua; */
+    }
+
+    .page4 {
+        /* background-color: aqua; */
+        min-height: calc(100vh - 10vh);
+    }
+
+    .pg4-heading h1 {
+        font-size: 22px;
+    }
+
+    .pg4-heading p {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .ecommerce,
+    .salesforce {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* border: 2px solid rgb(239, 245, 245); */
+    }
+
+    .grid-page4 img {
+        height: 140px;
+        width: 200px;
+    }
+
+    .grid-page4 h2 {
+        font-size: 14px;
+    }
+
+    .grid-page4 p {
+        font-size: 12px;
+    }
+
+    .page5 {
+        min-height: 80vh;
+    }
+
+}

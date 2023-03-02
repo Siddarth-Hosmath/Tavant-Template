@@ -1,0 +1,84 @@
+@media only screen and (max-height:890px) and (max-height:450px){
+
+    .navbar{
+        min-height: 18vh;
+    }
+    .page1-welcome{
+        background-size: 920px;
+    }
+    .title2 p{
+        margin: 2px 0;;
+    }
+    .caption{
+        margin: 0px;
+    }
+    .button{
+        margin-top: 0px;
+        font-size: 12px;
+        padding: 12px 9px;
+    }
+    .info{
+        margin: 7px auto;
+        min-height: 12vmin;
+    }
+    .grid-container{
+        margin: auto 0vw;
+        /* background-color: aqua; */
+    }
+
+    .third-grid-container{
+        width: 100%;
+        margin: auto 2vw;
+        gap: 5px;
+    }
+    .right-grid img{
+        margin-right: 30px;
+        height: 230px;
+        width: 330px;
+    }
+    .page4{
+        /* background-color: aquamarine; */
+        min-height: 92vh;
+    }
+    .pg4-heading p{
+        margin-top: 2vh;
+    }
+
+    .grid-page4{
+        margin: 2vh auto 1vh;
+    }
+    .salesforce , .ecommerce{
+        width: 100%;
+    }
+    .salesforce img, .ecommerce img{
+        display: inherit;
+        justify-content: center;
+        margin: 2px auto;
+        height: 120px;
+        width: 220px;
+    }
+    .page-5-button{
+        padding: 6px 10px;
+        margin-top: 8px;
+        border-radius: 5px;
+        font-size: x-small;
+        /* background-color: aqua; */
+    }
+    .page5 h1{
+        font-size: 28px;
+    }
+    .title3{
+        color: rgb(2, 2, 2);
+    }
+    .content{
+        max-width: 80%;
+        margin: 3vh auto 3vh;
+
+    }
+    .footer{
+        height: 4vh;
+    }
+    .copywrite{
+        font-size: x-small;
+    }
+}
